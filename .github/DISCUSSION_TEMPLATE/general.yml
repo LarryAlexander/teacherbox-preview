@@ -1,0 +1,21 @@
+title: "[Preview interest] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The TeacherBox preview is already open; no signup or approval is needed to use it. This optional discussion is public and linked to your GitHub identity. Do not include student-identifying or other sensitive information.
+  - type: textarea
+    id: trying
+    attributes:
+      label: What are you hoping to try or share?
+      description: Keep your response general. You do not need to share your name, school, or contact information.
+      placeholder: I plan to try...
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy-check
+    attributes:
+      label: Before posting
+      options:
+        - label: I checked that my post contains no student-identifying or other sensitive information.
+          required: true

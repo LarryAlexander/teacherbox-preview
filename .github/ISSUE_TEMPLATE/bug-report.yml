@@ -1,0 +1,49 @@
+name: Bug report
+description: Report a problem you encountered in the TeacherBox preview.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issues are public and linked to your GitHub identity. Describe only what is needed to reproduce the problem. Never include student-identifying, school-private, or other sensitive information. Check screenshots for identifying details before attaching them.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the problem and any visible error message.
+      placeholder: What did you see?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the steps that led to the problem. Use fictional content.
+      placeholder: |
+        1. Open ...
+        2. Choose ...
+        3. See ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+      placeholder: Describe the expected result.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and device (optional)
+      description: Share browser name/version and general device type only. Do not include account, school, or student details.
+      placeholder: Safari on Mac, Chrome on Chromebook, etc.
+    validations:
+      required: false
+  - type: checkboxes
+    id: privacy-check
+    attributes:
+      label: Before submitting
+      options:
+        - label: I checked this report and it contains no student-identifying or other sensitive information.
+          required: true
