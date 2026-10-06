@@ -6,6 +6,8 @@
 
 Visit [teacherbox.lathekid.chatgpt.site](https://teacherbox.lathekid.chatgpt.site) and explore the preview. Trying the app does not require signing up.
 
+See the [preview changelog](CHANGELOG.md) for public release notes.
+
 ## Optional: participate or share feedback on GitHub
 
 You only need a GitHub account if you want to post. If you do not have one, [sign up for GitHub](https://github.com/signup), then sign in. Participation on GitHub is optional and does not control access to the TeacherBox preview.
